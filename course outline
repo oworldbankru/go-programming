@@ -1,0 +1,308 @@
+Your development environment
+Introduction
+The terminal
+Bash on Windows
+Shell / bash commands I
+Shell / bash commands II
+Installing Go
+Go workspace
+Environment variables
+IDE’s
+Go commands
+Github repos
+Github explored
+Variables, values, & type
+Playground
+Hello world
+Introduction to packages
+Short declaration operator
+The var keyword
+Exploring type
+Zero value
+The fmt package
+Creating your own type
+Conversion, not casting
+Exercises - Ninja Level 1
+Contribute your code
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Programming fundamentals
+Bool type
+How computers work
+Numeric types
+String type
+Numeral systems
+Constants
+Iota
+Bit shifting
+Exercises - Ninja Level 2
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Hands-on exercise #7
+Control Flow
+Understanding control flow
+Loop - init, condition, post
+Loop - nested loops
+Loop - for statement
+Loop - break & continue
+Loop - printing ascii
+Conditional - if statement
+Conditional - if, else if, else
+Loop, conditional, modulus
+Conditional - switch statement
+Conditional - switch statement documentation
+Conditional logic operators
+Exercises - Ninja Level 3
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Hands-on exercise #7
+Hands-on exercise #8
+Hands-on exercise #9
+Hands-on exercise #10
+Grouping data
+Array
+Slice - composite literal
+Slice - for range
+Slice - slicing a slice
+Slice - append to a slice
+Slice - deleting from a slice
+Slice - make
+Slice - multi-dimensional slice
+Slice - underlying array
+Map - introduction
+Map - add element & range
+Map - delete
+Exercises - Ninja Level 4
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Hands-on exercise #7
+Hands-on exercise #8
+Hands-on exercise #9
+Hands-on exercise #10
+Structs
+Struct
+Embedded structs
+Reading documentation
+Anonymous structs
+Housekeeping
+Exercises - Ninja Level 5
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Functions
+Syntax
+Variadic parameter
+Unfurling a slice
+Defer
+Methods
+Interfaces & polymorphism
+Anonymous func
+func expression
+Returning a func
+Callback
+Closure
+Recursion
+Exercises - Ninja Level 6
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Hands-on exercise #7
+Hands-on exercise #8
+Hands-on exercise #9
+Hands-on exercise #10
+Hands-on exercise #11
+Pointers
+What are pointers?
+When to use pointers
+Method sets
+Exercises - Ninja Level 7
+Hands-on exercise #1
+Hands-on exercise #2
+Application
+JSON documentation
+JSON marshal
+JSON unmarshal
+Writer interface
+Sort
+Sort custom
+bcrypt
+Exercises - Ninja Level 8
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Concurrency
+Concurrency vs parallelism
+WaitGroup
+Method sets revisited
+Documentation
+Race condition
+Mutex
+Atomic
+Exercises - Ninja Level 9
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Hands-on exercise #7
+Channels
+Understanding channels
+Directional channels
+Using channels
+Range
+Select
+Comma ok idiom
+Fan in
+Fan out
+Context
+Exercises - Ninja Level 10
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Hands-on exercise #6
+Hands-on exercise #7
+Error handling
+Understanding
+Checking errors
+Printing & logging
+Recover
+Errors with info
+Exercises - Ninja Level 11
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Hands-on exercise #4
+Hands-on exercise #5
+Writing documentation
+Introduction
+go doc
+godoc
+godoc.org
+Writing documentation
+Exercises - Ninja Level 12
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+Testing & Benchmarking
+Introduction
+Table tests
+Example tests
+Golint
+Benchmark
+Coverage
+Benchmark examples
+Review
+Exercises - Ninja Level 13
+Hands-on exercise #1
+Hands-on exercise #2
+Hands-on exercise #3
+
+
+Course resources
+The course outline is part of the course. Please read all of the descriptions of the videos in the course outline. This is part of the learning process. When you read the descriptions:
+the concepts you are learning will be reinforced
+you learn the material more quickly
+In addition, I sometimes provide additional information in the course descriptions. Sometimes I record a lecture, then remember that there is a resource or another piece of information which you should know. Some of these resources and extra pieces of information I include are very valuable.
+
+Github code samples
+downloading zip
+searching for code
+
+Caleb Doxsey website and his book
+http://www.doxsey.net/ 
+http://amzn.to/1OnFtPY 
+https://github.com/diyblockchain/go-programming
+go by example
+https://gobyexample.com/ 
+
+Bill Kennedy’s book
+http://amzn.to/1kGGsPv 
+
+Donovan and Kernighan’s book
+http://amzn.to/1RIM5HP 
+
+Go Web Programming
+http://amzn.to/2dVlW07 
+
+
+Go Installation Instruction 
+Step 1 – Install Go on Ubuntu
+Login to your Ubuntu system using ssh and upgrade to apply latest security updates there.
+sudo apt-get update
+sudo apt-get -y upgrade
+
+Now download the Go language binary archive file using following link. To find and download latest version available or 32 bit version go to official download page.
+wget https://dl.google.com/go/go1.12.2.linux-amd64.tar.gz
+
+Now extract the downloaded archive and install it to the desired location on the system. For this tutorial, I am installing it under /usr/local directory. You can also put this under the home directory (for shared hosting) or other location.
+sudo tar -xvf go1.12.2.linux-amd64.tar.gz
+sudo mv go /usr/local
+
+Step 2 – Setup Go Environment
+Now you need to setup Go language environment variables for your project. Commonly you need to set 3 environment variables as GOROOT, GOPATH and PATH.
+GOROOT is the location where Go package is installed on your system.
+export GOROOT=/usr/local/go
+
+GOPATH is the location of your work directory. For example my project directory is ~/Projects/Proj1 .
+export GOPATH=$HOME/Projects/Proj1
+
+Now set the PATH variable to access go binary system wide.
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+All the above environment will be set for your current session only. To make it permanent add above commands in ~/.profile file.
+Step 3 – Verify Installation
+At this step, you have successfully installed and configured go language on your system. First, use the following command to check the Go version.
+go version
+
+go version go1.12.2 linux/amd64
+
+Now also verify all configured environment variables using following command.
+go env
+
+GOARCH="amd64"
+GOBIN=""
+GOCACHE="/root/.cache/go-build"
+GOEXE=""
+GOHOSTARCH="amd64"
+GOHOSTOS="linux"
+GOOS="linux"
+GOPATH="/root/Projects/Proj1"
+GORACE=""
+GOROOT="/usr/local/go"
+GOTMPDIR=""
+GOTOOLDIR="/usr/local/go/pkg/tool/linux_amd64"
+GCCGO="gccgo"
+CC="gcc"
+CXX="g++"
+CGO_ENABLED="1"
+...
+...
+
+
+
+
